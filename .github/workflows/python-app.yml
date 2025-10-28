@@ -39,7 +39,7 @@ jobs:
     - name: Install dependencies
       run: |
           python -m pip install --upgrade pip
-          pip install -r requirements.txt  
+          pip install pytest pandas  
 # if i want to run all test cases i will need all the lib like pytest
 
 # Step 4: Run tests
