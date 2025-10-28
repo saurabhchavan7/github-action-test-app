@@ -44,4 +44,4 @@ jobs:
 
 # Step 4: Run tests
     - name: Run tests
-      run: pytest   # as soon as this particular command is run in the container it will start looking for test folder wherever the specific test folder is there and then it will execute all the unit test casses
+      run: python -m pytest -q tests # as soon as this particular command is run in the container it will start looking for test folder wherever the specific test folder is there and then it will execute all the unit test casses
