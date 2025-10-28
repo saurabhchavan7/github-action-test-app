@@ -27,12 +27,12 @@ jobs:
     steps:
  # step 1: check out the code from the repository
     - name: Check out code
-      uses: actions/setup-python@v3 
+      uses: actions/setup-python@v4 
       with:
         python-version: "3.10"
 # step 2: set up python environment
     - name: set up python 
-      uses: actions/setup-python@v3 # will again  going to use action which is nothing but the github actions specifically use to create pythion envt
+      uses: actions/setup-python@v4 # will again  going to use action which is nothing but the github actions specifically use to create pythion envt
       with:
         python-version: "3.10"
 # Step 3: Install dependencies
